@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Tracking_Bold';
+    src: url('font/Tracking_Bold/Tracking_Bold.woff');
+}
+
+body {
+    background-image: -webkit-linear-gradient(#1D3557 , #E63946 );
+}
+
+#gif {
+    text-align: center;
+    padding-top: 1em;
+}
+
+
+#subtitle {
+    color: rgb(40, 36, 36);
+    background-color: #F1FAEE;
+    text-align: center;
+    padding: 0.5em;
+    font-family: Tracking_Bold;
+    border-radius: 5px;
+}
+
+.navbar {
+    border-radius: 5px;
+    background-color: #F1FAEE;
+    font-family: Tracking_Bold;
+    margin-top: -0.5cm;
+}
+
+.dropdown-menu {
+    background-color: #F1FAEE;
+}
+
+#space {
+    height: 2cm;
+}
+
+#main {
+    background-color: #F1FAEE;
+    border-radius: 5px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    height: 40vw;
+}
+
+#externalContentColumn {
+    background-color: #F1FAEE;
+    height: 40vw;
+    overflow-y: auto; /* or overflow-y: scroll; */
+}
+
+#map { height: 28vw; }
+
+#footer {
+    background-color: #F1FAEE;
+}
+
